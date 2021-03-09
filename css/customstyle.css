@@ -1,0 +1,184 @@
+.border{
+    padding: 1%;
+    margin: 10%;
+    text-align: justify;
+    color: aqua;
+}
+.fonts{
+    font-size: 12px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, 'Roboto';
+   
+}
+.font-footer{
+    font-size: 12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, 'Roboto';
+    font-weight: 600;
+}
+.font-primary{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, 'Roboto'; 
+    font-weight: 600;
+}
+.font-general{
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, 'Roboto';
+    color: rgba(20, 20, 20, 0.781);
+}
+.background{
+    background-image: url("../images/background/background-image.jpg");
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    opacity: 0.1;
+    filter: alpha(opacity=10);
+}
+.unopacity{
+    opacity: 1.0;
+}
+/*
+styles for carousel
+*/
+.carousel-item img{
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+}
+.carousel-item{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+/*
+form freeback
+*/
+.fm-freback, .fm-register, .fm-authorization, .fm-login, .fm-calculate{
+   margin: 0 auto;
+   width:250px;
+}
+/*
+commebt block
+*/
+.comment{
+    border-radius: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, 'Roboto';
+    font-size: 14px;
+    font-style: normal;
+    color: black;
+}
+/*
+для комментариев
+*/
+.txtaborder{
+    height: 100px;
+    width: 40%;
+    border-radius: 6px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, 'Roboto';
+}
+.inpsize{
+    height: 30px;
+    width: 40%;
+    border-radius: 6px;
+}
+/*
+logout
+*/
+#lgitem{
+height: 80px;
+width: 20%;
+text-align: center;
+margin-left: 20px;
+}
+.jumbotron-fluid{
+    height: 100%;
+    background-size: cover;
+}
+.backgr{
+    background: rgb(233, 235, 234);
+    
+}
+.desk{
+    text-decoration: none;
+    float: right;
+}
+/*menu style*/
+.dd1{
+  float:right;
+  list-style:none;
+ 
+}
+.nav-link:hover{
+   
+    color:#000;
+}
+.nav-link{
+  color:#000;
+}
+#nsearch, #id1, #catname, #desc, #rat, #tdmid, #tdesid, #decid, #tid, #nid, #desid, #ratid, #stateid, #descid{
+    width: 20%;
+    align-items: center;
+    margin-left: 4%;
+}
+#fnid, #snid, #mnid, #adrid, #pnid, #emaid{
+    width: 20%;
+}
+
+
+.btn-success, .btn-primary, .btn-danger{
+    margin-left: 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 5px;
+    border-radius: 6px;
+}
+ #ddd{
+   padding: 1%;
+   
+}
+.dfsmenu{
+    margin-left: 4%;
+    width: 40%;
+}
+#prid, #countid, #priceid, #desid, #nameid{
+    margin-left:5%;
+    width: 20%;
+}
+.info{
+    visibility: hidden;
+}
+.form-control-range{
+    width: 40px;
+    
+
+}
+#priceidmax, #priceidmin{
+    width: 50%;
+ 
+    margin-left: 200px;
+
+}
+.mycard{
+  background-color:#e9ecf0ad;
+  position: relative;
+  width: 60%;
+  padding: 3%;
+}
+.prim{
+    padding: 0;
+    margin: 0;
+    font-size: 23px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, 'Roboto';
+    font-weight: bold;
+    color: rgb(212, 102, 13);
+
+}
+.prim-item{
+ 
+  
+    list-style: none;
+    position: relative;
+    
+}
+.prim-item b{
+ margin-right: 3%;
+}

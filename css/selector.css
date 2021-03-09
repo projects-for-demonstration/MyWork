@@ -1,0 +1,23 @@
+.checkselect label {
+	position: relative;
+	display: block;
+	margin: 0;
+	padding: 4px 6px 4px 25px;
+	font-weight: normal;
+	font-size: 1em;
+	line-height: 1.1;
+	cursor: pointer;
+}	
+.checkselect {
+	position: relative;
+	display: inline-block;
+	min-width: 200px;
+	text-align: left;
+	display: none;
+}
+.btn-primary{
+	display: none;
+}
+.btn-primary:hover{
+	display:block;
+}

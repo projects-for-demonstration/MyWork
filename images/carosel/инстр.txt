@@ -1,0 +1,5 @@
+нормализованы
+item1.jpg
+item3.jpg
+item5.jpg
+use Photoshop2019

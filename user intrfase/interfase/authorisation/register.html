@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Регистрация нового пользователя</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="../../../css/customstyle.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body class="backgr">
+  
+    <!--меню-->
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+         <a class="navbar-brand" href="../../user intrfase/confirm/index.html">Computer store shop</a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
+             aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation"><span
+                 class="navbar-toggler-icon"></span></button>
+         <div class="collapse navbar-collapse" id="navbarColor01">
+             <ul class="navbar-nav mr-auto">
+                 <li class="nav-item active">
+                     <a class="nav-link" href="../../user intrfase/confirm/index.html">Home</a>
+                 </li>
+                 <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" href="#" id="uint" data-toggle="dropdown" aria-haspopup="true"
+                         aria-expanded="false">USER INTERFASE</a>
+                     <div class="dropdown-menu" aria-labelledby="uint">
+                         <a class="dropdown-item" href="../../user intrfase/catalog/index.html">Каталог товаров</a>
+                         <a class="dropdown-item" href="../../user intrfase/confirm/about.html">О нашем магазине</a>
+                         <a class="dropdown-item" href="../../user intrfase/confirm/history.html">История создания
+                             магазина</a>
+                         <a class="dropdown-item" href="../../user intrfase/calculator/index.html">Рассчет стоимости
+                             товаров</a>
+                         <a class="dropdown-item" href="../../user interfase/support/index.html">Поддержка</a>
+                         <a class="dropdown-item" href="../../user intrfase/freeback/freeback.html">Форма обратной
+                             связи</a>
+
+                     </div>
+                 </li>
+                 <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" href="#" id="rint" data-toggle="dropdown" aria-haspopup="true"
+                         aria-expanded="false">ROOT INTERFASE</a>
+                     <div class="dropdown-menu" aria-labelledby="rint">
+                         <a class="dropdown-item" href="../../root interfase/paymethods/index.html">Способы оплаты</a>
+                         <a class="dropdown-item" href="../../root interfase/deliverymethods/index.html">Способы
+                             доставки</a>
+                         <a class="dropdown-item" href="../../root interfase/categories/index.html">Категории
+                             товаров</a>
+                         <a class="dropdown-item" href="../../root interfase/products/index.html">Товары</a>
+                         <a class="dropdown-item" href="../../root interfase/user/index.html">Пользователи</a>
+                         <a class="dropdown-item" href="../../root interfase/positions/index.html">Должности</a>
+                         <a class="dropdown-item" href="../../root interfase/salary/index.html">зарплаты сотрудников</a>
+                         <a class="dropdown-item" href="../../root interfase/supplercompanies/index.html">Фирмы
+                             поставщики</a>
+                         <a class="dropdown-item" href="../../root interfase/os/index.html">Операционные системы</a>
+                         <a class="dropdown-item" href="../../root interfase/orderstates/index.html">Состояния
+                             заказа</a>
+                         <a class="dropdown-item" href="../../root interfase/orders/index.html">Заказы</a>
+                     </div>
+                 </li>
+                 <li class="nav-item">
+                     <a class="nav-link" href="../../user intrfase/interfase/authorisation/login.html"
+                         style="position: absolute; right: 0px;">LOGIN</a>
+                 </li>
+                 <li class="nav-item" style=" position: absolute; right: 5%">
+                     <a class="nav-link" style="float: right"
+                         href="../../user intrfase/interfase/authorisation/register.html">REGISTER</a>
+                 </li>
+             </ul>
+         </div>
+     </nav>
+        <div class="jumbotron">
+        <form name="fm1" autocomplete="off">
+         <div class="form-group">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-10">
+                <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+            </div>
+        </div>
+        <div class="form-grop">
+             <label for="inpp1" class="col-sm-2 col-form-label">Password</label>
+            <div class="col-sm-10">
+                <input type="password" class="form-control" id="inpp1" placeholder="enter your password">
+            </div>
+        </div>
+        <div class="form-group">
+             <label for="inpp2" class="col-sm-2 col-form-label">Confirm password</label>
+            <div class="col-sm-10">
+                <input type="password" class="form-control" id="inpp2" placeholder="reenter your password">
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-10 offset-sm-2">
+                <button type="submit" class="btn btn-primary" onclick="validate()">Sign in</button>
+            </div>
+        </div>
+        </form>
+        <hr class="my-2">
+            <p class="lead">2020-2021. Магазин компьютегрной техники</p>
+       </div>
+        
+        <script lang="JavaScript">
+            function validate() {
+                 var a1 = document.getElementById("inputEmail3").value;
+            alert
+            var p1 = document.getElementById("inpp1").value;
+            var p2 = document.getElementById("inpp2").value;
+            if (a1==""){
+                alert("пожалуйста, введите имя пользователя");
+                document.fm1.inputEmail3.focus();
+               
+            }
+            if (p1!=p2){
+                alert("пароли не совпадают");
+               
+            }
+            }
+           
+        </script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
